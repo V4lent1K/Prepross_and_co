@@ -1,0 +1,43 @@
+@import "variables";
+
+html{
+    font-size: $fs1_25em;
+}
+
+body {
+    font-family: $font;
+    font-size: $fs1rem;
+    line-height: $lh1_5rem;
+}
+
+h1, .h1 {
+    font-size: $fs3rem;
+    line-height: $lh1_5rem;
+    margin-top: $t3rem;
+    margin-bottom: $t1_5em;
+}
+
+h2, .h2 {
+    font-size: $fs2_4rem;
+    line-height: $lh1_5rem;
+    margin-top: $t1_5rem;
+    margin-bottom: $t1_5rem;
+}
+
+h3, .h3 {
+    font-size: $fs1_35rem;
+    line-height: $lh1_3rem;
+    margin-top: $t0_5em;
+    margin-bottom: $t1em;
+}
+
+p, ul, ol {
+    line-height: $lh1_5rem;
+    margin-top: $t0_5em;
+    margin-bottom: $t1em;
+}
+
+ul ul, ol ol, ul ol, ol ul, .no-margin {
+    margin-top: 0em;
+    margin-bottom: 0em;
+}

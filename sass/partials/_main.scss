@@ -1,0 +1,51 @@
+@import "variables";
+main {
+    background: $blanc;
+    padding-top: $t1_5rem;
+}
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: $t1_5rem;
+}
+.article {
+    flex : 0 0 44%;
+}
+.bt {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+.bt a {
+    color: $blanc;
+    display: block;
+    background-color: $background_2;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+}
+.bt a:hover {
+    background: $background_3;
+    color: $color_2;
+}
+.containerVignettes {
+    padding: $t1_5rem;
+    box-shadow: -1px -1px 20px 10px $gris93;
+}
+.vignette {
+    position: relative;
+    flex: 0 0 29%;
+}
+.vignette-figcaption {
+    position: absolute;
+    bottom: $t0;
+    left: $t0;
+    right: $t0;
+    background: $background_4;
+    display: none;
+    columns: $gris93;
+    padding: $t1rem;
+}
+.vignette:hover .vignette-figcaption {
+    display: block;
+}

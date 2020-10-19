@@ -1,0 +1,32 @@
+@import "variables";
+
+html {
+    font-size: $fs1_25em;
+}
+
+body {
+    font-family: $font;
+    font-size: $fs1rem;
+    line-height: $lh1_2rem;
+    background: $gris93;
+}
+
+a {
+    text-decoration: none;
+    color: $rouge;    
+}
+
+a:hover {
+    color: $gris60;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    width: 95%;
+    max-width: 1550px;
+    margin: 0 auto;
+    background: $blanc;
+}

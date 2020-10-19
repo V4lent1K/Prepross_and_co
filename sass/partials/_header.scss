@@ -1,0 +1,40 @@
+@import "variables";
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: $t1_5rem;
+}
+
+.header-title {
+    padding-right: $t1rem;
+    margin: $t0;
+}
+
+.menu {
+    background: $background_1;
+    margin: $t0;
+    padding: $t0;
+    display: flex;
+    justify-content: center;
+    border-radius: $t1em;
+}
+
+.menu-item {
+    list-style: none;
+}
+
+.menu-item a {
+    background: $background_2;
+    padding: 10px 20px;
+    margin: 1px 0px;
+    display: block;
+    text-decoration: none;
+    color: $blanc;
+}
+
+.menu-item a:hover {
+    background: $background_3;
+    color: $color_1;
+}
